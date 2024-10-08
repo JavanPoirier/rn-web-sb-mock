@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        // https://github.com/streamich/react-use/issues/483
+        "name": "react-use",
+        "message": "Please import the specific function from react-use instead of the whole library (e.g. import useTimeout from 'react-use/lib/useTimeout')",
+      },
+    ],
+  },
+}
